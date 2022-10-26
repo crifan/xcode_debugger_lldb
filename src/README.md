@@ -1,11 +1,11 @@
 # Xcode内置调试器：LLDB
 
-* 最新版本：`v0.7`
+* 最新版本：`v0.8`
 * 更新时间：`20221026`
 
 ## 简介
 
-介绍Xcode内置的调试器LLDB。先是LLDB概览；再详细介绍LLDB的命令，包括LLDB的命令概览和LLDB的各个命令；LLDB命令概览包括cheat sheet和help语法；LLDB常用命令包括image、register、expression，尤其是其中的p和po、memory、disassemble、thread、frame、breakpoint、watchpoint、以及调试控制相关的命令，包括run、continue、next和nexti、step和stepi、jump、finish、exit等最后再整理出相关心得，包括命令的缩写、Xcode中的lldb、iOS逆向、LLVM等等。最后给出相关的文档和资料。
+介绍Xcode内置的调试器LLDB。先是LLDB概览；再详细介绍LLDB的命令，包括LLDB的命令概览和LLDB的各个命令；LLDB命令概览包括cheat sheet和help语法；LLDB常用命令包括image、register、expression，尤其是其中的p和po、memory、disassemble、thread、frame、breakpoint、watchpoint、以及调试控制相关的命令，包括run、continue、next和nexti、step和stepi、jump、finish、exit等，且都给出help语法和用法举例；然后再整理出相关心得，包括命令的缩写、Xcode中的lldb、iOS逆向、LLVM等等。最后给出相关的文档和资料。
 
 ## 源码+浏览+下载
 

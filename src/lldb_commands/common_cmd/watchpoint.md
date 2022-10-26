@@ -11,38 +11,7 @@ TODO：
 
 ---
 
-
-help语法：
-
-```bash
-(lldb) help watchpoint
-Commands for operating on watchpoints.
-
-Syntax: watchpoint <subcommand> [<command-options>]
-
-The following subcommands are supported:
-
-      command -- Commands for adding, removing and examining LLDB commands
-                 executed when the watchpoint is hit (watchpoint 'commands').
-      delete  -- Delete the specified watchpoint(s).  If no watchpoints are
-                 specified, delete them all.
-      disable -- Disable the specified watchpoint(s) without removing it/them. 
-                 If no watchpoints are specified, disable them all.
-      enable  -- Enable the specified disabled watchpoint(s). If no watchpoints
-                 are specified, enable all of them.
-      ignore  -- Set ignore count on the specified watchpoint(s).  If no
-                 watchpoints are specified, set them all.
-      list    -- List all watchpoints at configurable levels of detail.
-      modify  -- Modify the options on a watchpoint or set of watchpoints in
-                 the executable.  If no watchpoint is specified, act on the
-                 last created watchpoint.  Passing an empty argument clears the
-                 modification.
-      set     -- Commands for setting a watchpoint.
-
-For more help on any particular subcommand, type 'help <command> <subcommand>'.
-```
-
-用法举例：
+## watchpoint举例
 
 ```bash
 (lldb) watchpoint set expr 0x000000011ceb5818
@@ -70,4 +39,34 @@ All watchpoints disabled. (4 watchpoints)
 ```bash
 (lldb) watchpoint enable
 All watchpoints enabled. (4 watchpoints)
+```
+
+## watchpoint语法
+
+```bash
+(lldb) help watchpoint
+Commands for operating on watchpoints.
+
+Syntax: watchpoint <subcommand> [<command-options>]
+
+The following subcommands are supported:
+
+      command -- Commands for adding, removing and examining LLDB commands
+                 executed when the watchpoint is hit (watchpoint 'commands').
+      delete  -- Delete the specified watchpoint(s).  If no watchpoints are
+                 specified, delete them all.
+      disable -- Disable the specified watchpoint(s) without removing it/them. 
+                 If no watchpoints are specified, disable them all.
+      enable  -- Enable the specified disabled watchpoint(s). If no watchpoints
+                 are specified, enable all of them.
+      ignore  -- Set ignore count on the specified watchpoint(s).  If no
+                 watchpoints are specified, set them all.
+      list    -- List all watchpoints at configurable levels of detail.
+      modify  -- Modify the options on a watchpoint or set of watchpoints in
+                 the executable.  If no watchpoint is specified, act on the
+                 last created watchpoint.  Passing an empty argument clears the
+                 modification.
+      set     -- Commands for setting a watchpoint.
+
+For more help on any particular subcommand, type 'help <command> <subcommand>'.
 ```

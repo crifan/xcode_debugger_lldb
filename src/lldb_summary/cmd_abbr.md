@@ -195,4 +195,5 @@ br l
 * `register` -> `reg`
   * `register read` -> `reg r`
 * `image` -> `im`
+  * `image lookup` = `im loo`
 * `memory` -> `mem`

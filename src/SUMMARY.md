@@ -20,7 +20,7 @@
     * [watchpoint](lldb_commands/common_cmd/watchpoint.md)
     * [调试控制](lldb_commands/common_cmd/debug_control/README.md)
       * [run](lldb_commands/common_cmd/debug_control/run.md)
-      * [continue](lldb_commands/common_cmd/debug_control/c.md)
+      * [continue](lldb_commands/common_cmd/debug_control/continue.md)
       * [next](lldb_commands/common_cmd/debug_control/next/README.md)
         * [nexti](lldb_commands/common_cmd/debug_control/next/nexti.md)
       * [step](lldb_commands/common_cmd/debug_control/step/README.md)
