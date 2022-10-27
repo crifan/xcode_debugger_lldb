@@ -11,6 +11,11 @@ TODO：
 * iOS逆向时用LLDB调试iOS中ObjC的对象和相关内容
 * 【记录】iOS逆向Xcode调试心得：bl后cmn再b.eq很像是switch case或if else的代码逻辑跳转
 * 【未解决】Xcode的lldb调试iOS的ObjC或Swift时如何打印出objc_msgSend第一个参数是什么类的实例
+* 【已解决】Xcode的lldb中如何访问类的实例的内部属性值
+* 【未解决】Xcode的lldb的po中如何判断对象是否是某个类的实例
+* 【已解决】XCode的lldb中如何调试运行iOS的ObjC代码
+
+---
 
 ## 无名函数
 
@@ -20,7 +25,7 @@ iOS逆向期间，往往可以看到这种函数名：
 AwemeCore`___lldb_unnamed_symbol148$$AwemeCore
 ```
 
-![lldb_unnamed_symbol_example](../assets/img/lldb_unnamed_symbol_example.jpg)
+![lldb_unnamed_symbol_example](../../assets/img/lldb_unnamed_symbol_example.jpg)
 
 其实就是个：`无名函数`
 

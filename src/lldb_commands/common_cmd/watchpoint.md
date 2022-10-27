@@ -4,7 +4,6 @@ TODO：
 
 * 【已解决】Xcode中lldb中如何给watchpoint加上条件判断过滤
 * 【已解决】Xcode中lldb的条件watchpoint报错：error user expression indirection requires pointer operand long invalid
-* 
 * 【已解决】Xcode的lldb中如何监控结构体变量值的变化
 * 【未解决】研究YouTube逻辑：监控NSArray的_allTrackRenderers值被改动
 * 【未解决】YouTube的HAMPlayerInternal的playerLoop中监控_currentTime变量值变化
