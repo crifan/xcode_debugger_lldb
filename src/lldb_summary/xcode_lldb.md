@@ -57,7 +57,7 @@ XCode调试期间，想要查看：函数调用堆栈
 ```c
 (lldb) bt
 * thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 17.1
-  * frame #0: 0x0000000117cf5368 MuJiaBaiHuoTweak.dylib`_logos_function$_ungrouped$sysctl(name=0x000000016d8e39b0, namelen=4, oldp=0x000000016d8e39c0, oldlenp=0x000000016d8e39a8, newp=0x0000000000000000, newlen=0) at hook_misc.xm:148:21 [opt]
+  * frame #0: 0x0000000117cf5368 XxxTweak.dylib`_logos_function$_ungrouped$sysctl(name=0x000000016d8e39b0, namelen=4, oldp=0x000000016d8e39c0, oldlenp=0x000000016d8e39a8, newp=0x0000000000000000, newlen=0) at hook_misc.xm:148:21 [opt]
     frame #1: 0x0000000109832a00 AwemeCore`___lldb_unnamed_symbol143748$$AwemeCore + 96
     frame #2: 0x0000000109869828 AwemeCore`___lldb_unnamed_symbol146535$$AwemeCore + 44
     frame #3: 0x00000001027babd8 libdispatch.dylib`_dispatch_client_callout + 16
